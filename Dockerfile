@@ -8,7 +8,8 @@ RUN apk add --no-cache \
       libtool \
       nodejs \
       yarn \
-      autoconf
+      autoconf \
+      automake
 
 # Create app directory
 WORKDIR /usr/src/app
