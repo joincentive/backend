@@ -13,7 +13,8 @@ RUN apk add --no-cache \
       gcc \
       make \
       g++ \
-      zlib-dev
+      zlib-dev \
+      libsodium
 
 # Create app directory
 WORKDIR /usr/src/app
