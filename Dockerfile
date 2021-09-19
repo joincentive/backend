@@ -7,7 +7,8 @@ RUN apk add --no-cache \
       ttf-freefont \
       libtool \
       nodejs \
-      yarn
+      yarn \
+      autoconf
 
 # Create app directory
 WORKDIR /usr/src/app
