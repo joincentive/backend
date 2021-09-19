@@ -5,6 +5,7 @@ RUN apk add --no-cache \
       harfbuzz \
       ca-certificates \
       ttf-freefont \
+      libtool \
       nodejs \
       yarn
 
