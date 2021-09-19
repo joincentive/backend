@@ -9,7 +9,11 @@ RUN apk add --no-cache \
       nodejs \
       yarn \
       autoconf \
-      automake
+      automake \
+      gcc \
+      make \
+      g++ \
+      zlib-dev
 
 # Create app directory
 WORKDIR /usr/src/app
